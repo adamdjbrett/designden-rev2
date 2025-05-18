@@ -1,4 +1,9 @@
 # Parish STEM Design Den - designden.space
+# Need
+- react app
+- SQL database or MariaDB
+- transactional email integration
+
 ## URGENT Needs
 1.  get this working with SQL database. the datbase should be encrypted and using 256 BIT AES
 2. get this working with transactional email via mailgun
@@ -6,10 +11,11 @@
     1. [Hot Glue Gun](https://forms.gle/r3jiyFeANwmZYviZ8) - Google Link
 4. Setup demo Admin Form
     1. See sections J & K.
-5. Admin Notificaiton when studen status change
+5. Admin Notification when studen status change
 5. restrict account registration eamils to the following domains: @designden.space, @parish.org, and @student.parish.org
 6. Remove student ID field
 7. Modify student statues to be ❓ in gray, ⚠️, ✅, 🔎
+8. Change the painters palette to be ```256stem.png```
 
 * * *
 
