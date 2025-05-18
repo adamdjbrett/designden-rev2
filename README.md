@@ -4,6 +4,9 @@
 - SQL database or MariaDB
 - transactional email integration
 
+## Preferred Webstack
+- MongoDB, Express,Js, React, Node.Js (MERN)
+
 ## URGENT Needs
 1.  get this working with SQL database. the datbase should be encrypted and using 256 BIT AES
 2. get this working with transactional email via mailgun
@@ -16,6 +19,7 @@
 6. Remove student ID field
 7. Modify student statues to be ❓ in gray, ⚠️, ✅, 🔎
 8. Change the painters palette to be ```256stem.png```
+9. make sure all students have
 
 * * *
 
