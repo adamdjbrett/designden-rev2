@@ -1,4 +1,4 @@
-# Design Den - designden.space
+# Parish STEM Design Den - designden.space
 ## URGENT Needs
 1.  get this working with SQL database. the datbase should be encrypted and using 256 BIT AES
 2. get this working with transactional email via mailgun
@@ -14,7 +14,7 @@
 * * *
 
 ## A. Intro
-build a react web app for a school called "The Design Den"
+build a react web app for a school called "The Parish STEM Design Den"
 the homepage should have two buttons create an account and Login
 
 ## B. Account Types

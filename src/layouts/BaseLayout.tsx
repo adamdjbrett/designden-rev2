@@ -11,7 +11,7 @@ const BaseLayout = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <Palette className="h-8 w-8 text-primary-600" />
-              <span className="ml-2 text-2xl font-semibold text-gray-900">Design Den</span>
+              <span className="ml-2 text-2xl font-semibold text-gray-900">Parish STEM Design Den</span>
             </div>
           </div>
         </div>

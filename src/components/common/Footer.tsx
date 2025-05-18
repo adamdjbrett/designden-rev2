@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex items-center">
             <Palette className="h-6 w-6 text-primary-600" />
-            <span className="ml-2 text-lg font-semibold text-gray-900">Design Den</span>
+            <span className="ml-2 text-lg font-semibold text-gray-900">Parish STEM Design Den</span>
           </div>
           <div className="mt-4 md:mt-0">
             <p className="text-center md:text-right text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} The Design Den. All rights reserved.
+              &copy; {new Date().getFullYear()} The Parish STEM Design Den. All rights reserved.
             </p>
           </div>
         </div>

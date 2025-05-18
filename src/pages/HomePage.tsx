@@ -52,7 +52,7 @@ const HomePage = () => {
           <div className="flex items-center mb-6 animate-pulse-soft">
             <Palette className="h-12 w-12" />
             <h1 className="ml-3 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              The Design Den
+              The Parish STEM Design Den
             </h1>
           </div>
           <p className="mt-3 max-w-md mx-auto text-lg text-white text-opacity-90 sm:text-xl md:mt-5 md:max-w-3xl">
@@ -128,7 +128,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">Ready to get started?</span>
-            <span className="block text-primary-600">Join The Design Den today.</span>
+            <span className="block text-primary-600">Join The Parish STEM Design Den today.</span>
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">

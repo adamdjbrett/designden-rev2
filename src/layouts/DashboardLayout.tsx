@@ -56,7 +56,7 @@ const DashboardLayout = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <Palette className="h-8 w-8 text-primary-600" />
-              <span className="ml-2 text-xl font-semibold text-gray-900 hidden sm:inline-block">Design Den</span>
+              <span className="ml-2 text-xl font-semibold text-gray-900 hidden sm:inline-block">Parish STEM Design Den</span>
             </div>
 
             <div className="flex items-center">
@@ -153,7 +153,7 @@ const DashboardLayout = () => {
               <div className="flex-1 h-0 pt-5 pb-4 overflow-y-auto">
                 <div className="flex-shrink-0 flex items-center px-4">
                   <Palette className="h-8 w-8 text-primary-600" />
-                  <span className="ml-2 text-2xl font-bold text-gray-900">Design Den</span>
+                  <span className="ml-2 text-2xl font-bold text-gray-900">Parish STEM Design Den</span>
                 </div>
                 <nav className="mt-5 px-2 space-y-1">
                   {navLinks.map((link, index) => (
