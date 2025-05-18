@@ -1,7 +1,7 @@
 # Parish STEM Design Den - designden.space
 # Need
 - react app
-- SQL database or MariaDB
+- SQL database or MariaDB or MongoDB
 - transactional email integration
 
 ## Preferred Webstack
