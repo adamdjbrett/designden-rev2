@@ -93,10 +93,11 @@ Each course is comprised of a series of forms (quizzes) which the student must t
 4. After admin form set status ✅ or 🔎
 
 ### K. Student statuses are
-❓ in gray
-⚠️
-✅
-🔎
+❓ not started
+❌ failed
+⚠️ needs review
+✅ approved: unsupervised
+🔎 approved: supervised
 
 ### L. Forms/Quiz
 1. The ability to design and create forms
