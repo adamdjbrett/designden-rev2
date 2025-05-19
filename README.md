@@ -92,7 +92,7 @@ Each course is comprised of a series of forms (quizzes) which the student must t
     5. Then on the student profile they should have a  ✅ or 🔎 for the tool (F1, F2, F3)
 4. After admin form set status ✅ or 🔎
 
-### K. Student statuses are
+### K. Student statuses are ❓ ❌ ⚠️  ✅  🔎 
 ❓ not started
 ❌ failed
 ⚠️ needs review
