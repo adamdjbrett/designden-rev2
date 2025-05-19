@@ -1,16 +1,21 @@
 # Parish STEM Design Den - designden.space
+- Website title: Parish STEM Design Den
+- logo: 256stem.png
+- url: designden.space
+- transactional Email API via mailgun
 
 # Need
 - react app
 - SQL database or MariaDB or MongoDB
 - transactional email integration
+- integrated search
+- you can build from scratch or use this template
+- include all ```demo-data``` and features listed below.
 
 ## Preferred Webstack
 - MongoDB, Express,Js, React, Node.Js (MERN)
 
 ## URGENT Needs
-### **FIX** 
--  I messed up ```designden-rev2/src/components/common/StatusIndicator.tsx``` when I tried to add other status icons. This file needs to use ```https://lucide.dev/icons/``` icons. Please use the Lucide icon versions of ❓ ❌ ⚠️  ✅  🔎 
 
 1.  get this working with SQL database. the datbase should be encrypted and using 256 BIT AES
 2. get this working with transactional email via mailgun
@@ -129,6 +134,10 @@ Each course is comprised of a series of forms (quizzes) which the student must t
     b. forgot password
 10. restrict emails to @designden.space, @parish.org, and @student.parish.org
 11. SQL encrypted 256-AES salted hash
+
+## Broken elements
+### **FIX** 
+-  I messed up ```designden-rev2/src/components/common/StatusIndicator.tsx``` when I tried to add other status icons. This file needs to use ```https://lucide.dev/icons/``` icons. Please use the Lucide icon versions of ❓ ❌ ⚠️  ✅  🔎 
 
 * * * 
 # next steps
