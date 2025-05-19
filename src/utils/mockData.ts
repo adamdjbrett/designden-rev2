@@ -49,9 +49,9 @@ export const mockCourses = [
     enrolledStudents: ['D100000001', 'D100000003', 'D100000013'],
     completionRate: 72,
     forms: [
-      { id: '101', name: 'Design Software Basics', status: 'completed' },
-      { id: '102', name: 'Color Theory Assessment', status: 'completed' },
-      { id: '103', name: 'Typography Fundamentals', status: 'pending' }
+      { id: '101', name: 'Design Software Basics', status: 'approved_unsupervised' },
+      { id: '102', name: 'Color Theory Assessment', status: 'approved_supervised' },
+      { id: '103', name: 'Typography Fundamentals', status: 'not_started' }
     ]
   },
   {
@@ -63,10 +63,10 @@ export const mockCourses = [
     enrolledStudents: ['D100000002', 'D100000027'],
     completionRate: 45,
     forms: [
-      { id: '201', name: 'Font Creation Tools', status: 'completed' },
-      { id: '202', name: 'Typography History', status: 'pending' },
-      { id: '203', name: 'Layout Design Principles', status: 'pending' },
-      { id: '204', name: 'Typographic Hierarchy', status: 'pending' }
+      { id: '201', name: 'Font Creation Tools', status: 'approved_supervised' },
+      { id: '202', name: 'Typography History', status: 'failed' },
+      { id: '203', name: 'Layout Design Principles', status: 'not_started' },
+      { id: '204', name: 'Typographic Hierarchy', status: 'not_started' }
     ]
   },
   {
@@ -78,9 +78,9 @@ export const mockCourses = [
     enrolledStudents: ['D100000001', 'D100000002', 'D100000003', 'D100000013', 'D100000027'],
     completionRate: 30,
     forms: [
-      { id: '301', name: 'Visual Storytelling', status: 'completed' },
-      { id: '302', name: 'Infographic Design', status: 'pending' },
-      { id: '303', name: 'Brand Identity Creation', status: 'pending' }
+      { id: '301', name: 'Visual Storytelling', status: 'approved_unsupervised' },
+      { id: '302', name: 'Infographic Design', status: 'needs_review' },
+      { id: '303', name: 'Brand Identity Creation', status: 'not_started' }
     ]
   }
 ];
@@ -99,21 +99,21 @@ export const mockStudentCourses = [
         id: '101', 
         name: 'Design Software Basics', 
         description: 'Certification for basic design software tools',
-        status: 'completed',
+        status: 'approved_unsupervised',
         lastAttempt: '2025-03-15T10:30:00Z'
       },
       { 
         id: '102', 
         name: 'Color Theory Assessment', 
         description: 'Certification for understanding and applying color theory',
-        status: 'completed',
+        status: 'approved_supervised',
         lastAttempt: '2025-03-18T14:45:00Z'
       },
       { 
         id: '103', 
         name: 'Typography Fundamentals', 
         description: 'Certification for typography principles and usage',
-        status: 'pending',
+        status: 'not_started',
         lastAttempt: null
       }
     ]
@@ -130,7 +130,7 @@ export const mockStudentCourses = [
         id: '201', 
         name: 'Font Creation Tools', 
         description: 'Certification for font design and creation tools',
-        status: 'completed',
+        status: 'approved_supervised',
         lastAttempt: '2025-03-10T09:15:00Z'
       },
       { 
@@ -144,14 +144,14 @@ export const mockStudentCourses = [
         id: '203', 
         name: 'Layout Design Principles', 
         description: 'Certification for page layout and design principles',
-        status: 'pending',
+        status: 'not_started',
         lastAttempt: null
       },
       { 
         id: '204', 
         name: 'Typographic Hierarchy', 
         description: 'Assessment of typographic hierarchy implementation',
-        status: 'pending',
+        status: 'not_started',
         lastAttempt: null
       }
     ]
@@ -168,21 +168,21 @@ export const mockStudentCourses = [
         id: '301', 
         name: 'Visual Storytelling', 
         description: 'Certification for visual narrative techniques',
-        status: 'completed',
+        status: 'approved_unsupervised',
         lastAttempt: '2025-04-05T15:30:00Z'
       },
       { 
         id: '302', 
         name: 'Infographic Design', 
         description: 'Assessment of data visualization and infographic creation',
-        status: 'pending',
+        status: 'needs_review',
         lastAttempt: null
       },
       { 
         id: '303', 
         name: 'Brand Identity Creation', 
         description: 'Certification for brand identity design principles',
-        status: 'pending',
+        status: 'not_started',
         lastAttempt: null
       }
     ]
