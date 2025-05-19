@@ -11,7 +11,7 @@
 1.  get this working with SQL database. the datbase should be encrypted and using 256 BIT AES
 2. get this working with transactional email via mailgun
 3. setup demo Quizzes
-    1. [Hot Glue Gun](https://forms.gle/r3jiyFeANwmZYviZ8) - Google Link
+    1. Hot Glue Gun
 4. Setup demo Admin Form
     1. See sections J & K.
 5. Admin Notification when studen status change
@@ -124,3 +124,9 @@ Each course is comprised of a series of forms (quizzes) which the student must t
     b. forgot password
 10. restrict emails to @designden.space, @parish.org, and @student.parish.org
 11. SQL encrypted 256-AES salted hash
+
+* * * 
+# next steps
+1. transfer domain to Joe
+2. transfer repo to Joe
+3. transfer Mailgun to Joe
