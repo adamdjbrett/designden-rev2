@@ -19,7 +19,7 @@ const StatusIndicator = ({
   const getStatusSymbol = () => {
     switch (status) {
       case 'not_started':
-        return '?';
+        return '❓';
       case 'failed':
         return '❌';
       case 'needs_review':
